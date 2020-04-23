@@ -6,7 +6,7 @@
       }
       article {
         background-color: white;
-        margin: 25px 50px 25px 50px;
+        margin: 25px 50px 10px 50px;
         padding: 25px;
         border: 1px solid lightgrey;
       }
@@ -50,7 +50,8 @@
         margin-bottom: 10px;
       }
       p {
-        margin: 10px 10px 10px 10px;
+        margin: 10px 10px 20px 30px;
+
       }
       .border {
         border-style: groove;
@@ -59,6 +60,11 @@
       .box {
         height: auto;
         width: 500px;
+      }
+      .box2 {
+        height: auto;
+        width: auto;
+        margin: 10px 10px 20px 10px;
       }
       .container {
       height: auto;
@@ -70,13 +76,49 @@
       i {
         font-size: 150%;
         letter-spacing: 5px;
-        margin-bottom: 5px;
+        padding: 5px 10px 20px 10px;
       }
       .icon:hover {
-        font-size: 250%;
+        font-size: 200%;
         transition-duration: 2s;
       }
       .color i:nth-child(-n+5) {
         opacity: 0.5;
         color: green;
       }
+      input, option, label {
+       color: #595959;
+       font-family: inherit;
+       font-size: 100%;
+       box-sizing: border-box;
+       margin: 1rem;
+      }
+      textarea {
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+      }
+      input[type=text] {
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+      }
+      input[type=Email] {
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+      }
+      .webform {
+       height: auto;
+       width: 500px;
+       padding: 5% 5% 10% 5%;
+       margin: 25px auto;
+      }
+      select {
+       border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+    }
