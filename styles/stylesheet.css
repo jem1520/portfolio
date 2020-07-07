@@ -125,8 +125,8 @@
       }
       select {
        border: 2px solid #ccc;
-      border-radius: 4px;
-      background-color: #f8f8f8;
+       border-radius: 4px;
+       background-color: #f8f8f8;
       }
       .sitename {
         background-color: #91bfa0;
